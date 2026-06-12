@@ -23,7 +23,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/summary",
+        "https://ai-professor-petp.onrender.com/summary",
         {
           params: {
             url: url
@@ -65,7 +65,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/quiz",
+        "https://ai-professor-petp.onrender.com/quiz",
         {
           params: {
             url: url
